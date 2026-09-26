@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-itunes-app" content="app-id=6808041226">
 <title>Support, BillVault</title>
 <style>
   :root { color-scheme: light dark; --ink: #1B2430; --muted: #5B6670; --accent: #1F6F50; --paper: #F7F8F5; --line: #DCE2DD; }
@@ -14,6 +15,9 @@
   p { margin: 10px 0; }
   a { color: var(--accent); }
   .lead { color: var(--muted); }
+  .store { display: inline-block; margin: 14px 0 4px; padding: 12px 20px; border-radius: 999px; background: var(--ink); color: var(--paper); font-weight: 600; text-decoration: none; }
+  .store:hover { opacity: 0.9; }
+  .store-note { color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
   dt { font-weight: 600; margin-top: 18px; }
   dd { margin: 4px 0 0; }
   footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
@@ -22,7 +26,9 @@
 <body>
 <main>
   <h1>BillVault Support</h1>
-  <p class="lead">BillVault keeps every bill and subscription in one place, with reminders, budgets, goals and an on-device assistant, so you always know what is due, what is paid and what you can safely spend.</p>
+  <p class="lead">BillVault keeps every bill and subscription in one place, with reminders, budgets, goals and an assistant built on Apple Intelligence, so you always know what is due, what is paid and what you can safely spend.</p>
+  <p><a class="store" href="https://apps.apple.com/app/id6808041226">Get BillVault on the App Store</a></p>
+  <p class="store-note">Free, with an optional Pro upgrade. iPhone, iPad, Apple Watch and Apple silicon Macs. No account needed.</p>
 
   <h2>Need help?</h2>
   <p>Email <a href="mailto:David@app-developments.com">David@app-developments.com</a> and you will get a reply from a real person. Telling me your iPhone model, the iOS version and what you were doing when something went wrong makes it much quicker to sort out.</p>
@@ -36,10 +42,10 @@
     <dd>On your iPhone. If you are signed in to iCloud, BillVault also keeps a copy in your private iCloud database so your iPad, Mac and Apple Watch stay in step. Only you can read it. Nothing is sent to the developer.</dd>
 
     <dt>How does the assistant work? Does my data go to a server?</dt>
-    <dd>The Ask tab, bill scanning, the daily briefing and statement import all run on Apple Intelligence on the device itself. No question, bill, statement or figure leaves your iPhone. Every number the assistant shows is calculated by the app, not guessed by the model. Apple Intelligence needs a supported iPhone with it turned on in Settings.</dd>
+    <dd>Bill scanning, statement import, the daily briefing and cancellation letters run on Apple Intelligence on the iPhone itself. Everyday questions in the Ask tab, such as what is due or what your bills add up to, are answered by the app from your own figures with no model at all. On iOS 27, a harder question or Reason it through can use Apple's larger model on Private Cloud Compute for that one answer: Apple designed it so that nothing is stored and Apple itself cannot read it, and you can switch it off under Settings, after which every answer stays on your iPhone. Nothing ever goes to the developer. Every number the assistant shows is calculated by the app, not guessed by the model. Apple Intelligence needs a supported iPhone with it turned on in Settings.</dd>
 
     <dt>Why does Reason it through take a while?</dt>
-    <dd>It calls the app's tools several times and checks every figure before it answers, all on the device. Twenty to sixty seconds is normal, longer right after the phone restarts.</dd>
+    <dd>It calls the app's tools several times and checks every figure before it answers. On the iPhone alone, twenty to sixty seconds is normal, longer right after the phone restarts; on iOS 27 with Private Cloud Compute it is usually faster.</dd>
 
     <dt>How do I import a bank statement?</dt>
     <dd>Export a CSV or PDF statement from your bank or card app, then open it from Home with Import statement, or share it straight to BillVault from the Files app or your bank's app. Start with your last three months so monthly charges show up as repeating, then add one statement a month to keep recurring charges up to date.</dd>
@@ -63,7 +69,7 @@
   <h2>Privacy</h2>
   <p>BillVault collects nothing about you. Read the full <a href="privacy.html">privacy policy</a>.</p>
 
-  <footer>BillVault is made by David Long. Last updated 4 September 2026.</footer>
+  <footer>BillVault is made by David Long. Last updated 25 September 2026.</footer>
 </main>
 </body>
 </html>
